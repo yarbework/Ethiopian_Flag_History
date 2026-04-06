@@ -15,8 +15,8 @@ export default {
         'off-white': '#F9FAFB',
       },
         fontFamily: {
-          sans: ['Inter', 'sans-serif'], // For modern UI elements
-          serif: ['Playfair Display', 'serif'], // For historical headings
+          sans: ['Inter', 'sans-serif'], 
+          serif: ['Playfair Display', 'serif'], 
         }
       },
     },
