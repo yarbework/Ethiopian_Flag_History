@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content:[
-    "./index.html",
+  content: [
+        "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
-      colors: {
+            colors: {
         'ethio-green': '#078930',
         'ethio-yellow': '#FCD116',
         'ethio-red': '#DA121A',
@@ -18,7 +18,7 @@ export default {
           sans: ['Inter', 'sans-serif'], 
           serif: ['Playfair Display', 'serif'], 
         }
-      },
     },
-    plugins: [],
-  }
+  },
+  plugins: [],
+}
