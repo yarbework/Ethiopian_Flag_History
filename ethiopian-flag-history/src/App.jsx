@@ -4,8 +4,7 @@ import Layout from "./components/layout/Layout";
 import Flags from "./pages/Flags";
 import Emblems from "./pages/Emblems";
 import Blog from "./pages/Blog";
-
-const Home = () => <div>Home Page Content</div>;
+import Home from "./pages/Home";
 
 function App() {
 
