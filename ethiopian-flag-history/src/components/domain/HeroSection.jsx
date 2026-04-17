@@ -1,10 +1,11 @@
 import React from 'react';
 import heroFlag from '../../assets/HeroFlag.png';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-[600px] flex items-center overflow-hidden">
+    <section className=" h-[600px] flex items-center overflow-hidden">
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroFlag})` }} 
@@ -22,7 +23,9 @@ const HeroSection = () => {
             Discover the rich symbolism and evolution of Ethiopia's flag through centuries of sovereignty, resistance, and pride.
           </p>
           <div className="flex gap-4">
-            <button className="bg-ethio-yellow text-black font-bold px-8 py-3 rounded hover:bg-yellow-400 transition shadow-lg">
+            <button 
+            className="bg-ethio-yellow text-black font-bold px-8 py-3 rounded hover:bg-yellow-400 transition shadow-lg"
+            >
               Explore History
             </button>
             <button className="border border-white text-white px-8 py-3 rounded hover:bg-white hover:text-black transition">

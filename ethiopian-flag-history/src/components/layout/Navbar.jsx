@@ -15,11 +15,14 @@ const Navbar = () => {
                         {isOpen ? <X /> : <Menu />}
                     </button>
                 
-                <div className="hidden md:flex gap-6 items-center">
+                <div className="hidden justify-between md:flex gap-6 items-center ">
                     <Link to="/">Home</Link>
                     <Link to="/flags">Flags</Link>
                     <Link to="/emblems">Emblems</Link>
                     <Link to="/blog">Blog</Link>
+                </div>
+                        
+                <div className='hidden md:flex items-center'>
                     <button className="bg-ethio-green text-white px-4 py-2 rounded">Explore</button>
                 </div>
             </div>
