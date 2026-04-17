@@ -1,5 +1,6 @@
 import React from 'react';
 import heroFlag from '../../assets/HeroFlag.png';
+import { motion } from 'framer-motion';
 
 const HeroSection = () => {
   return (
@@ -31,10 +32,19 @@ const HeroSection = () => {
         </div>
 
         <div className="hidden md:flex justify-end">
-          <img 
+          <motion.img 
             src={heroFlag} 
             alt="Ethiopian Flag" 
-            className="w-full max-w-md drop-shadow-2xl animate-float"
+            className="w-full max-w-md drop-shadow-2xl"
+            animate={{
+              y: [0, -20, 0], 
+              rotate: [0, 2, 0, -2, 0]
+            }}
+            transition={{ 
+              duration: 6, 
+              repeat: Infinity, 
+              ease: "easeInOut" 
+            }}
           />
         </div>
       </div>

@@ -15,7 +15,7 @@ const Navbar = () => {
                         {isOpen ? <X /> : <Menu />}
                     </button>
                 
-                <div className="hidden md:flex gap-6">
+                <div className="hidden md:flex gap-6 items-center">
                     <Link to="/">Home</Link>
                     <Link to="/flags">Flags</Link>
                     <Link to="/emblems">Emblems</Link>
